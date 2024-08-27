@@ -1,4 +1,4 @@
-export REGION=
+export REGION=us-central1
 export PROJECT_ID=$(gcloud info --format="value(config.project)")
 
 git clone https://github.com/GoogleCloudPlatform/DIY-Tools.git
